@@ -4,6 +4,9 @@
 Key Features:
 
 Task Management: Plan, track, and manage tasks effortlessly.
+
 User-Friendly Design: Simple, elegant, and easy to navigate.
+
 Collaboration Tools: Stay connected and work seamlessly with your team.
+
 Get started today and make organization effortless with Organizer!
