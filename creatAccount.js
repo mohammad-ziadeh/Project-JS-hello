@@ -18,7 +18,9 @@ function req0() {
     errors[0].innerHTML = "";
     Fname.style.border = "";
   }
-
+}
+function req01() {
+  let errors = document.querySelectorAll(".error");
   if (Lname.value === "") {
     errors[1].innerHTML = "Please fill in your last name";
     Lname.style.border = "2px solid red";
@@ -97,7 +99,7 @@ email.addEventListener("input", req1);
 pass.addEventListener("input", req2);
 passCon.addEventListener("input", req3);
 Fname.addEventListener("input", req0);
-Lname.addEventListener("input", req0);
+Lname.addEventListener("input", req01);
 
 btn.addEventListener("click", (event) => {
   event.preventDefault();

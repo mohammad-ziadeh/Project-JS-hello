@@ -187,12 +187,15 @@ function closeModal(modalId) {
 }
 function displayName() {
   const users = JSON.parse(sessionStorage.getItem("users")) || [];
-  if (users[0].email) {
-    for (let i = 0; i < users.length; i++) {
-      let Name = users[i].email.split("@")[0];
-      UserName.innerText = "Welcome " + Name;
-    }
-  }
+  //  let userIndex = users.indexOf(
+  //   (user) => user.email === email.value && user.password === pass.value
+  // );
+  // if (users[0].email) {
+  //   for (let i = 0; i < users.length; i++) {
+  //     let Name = users[i].email.split("@")[0];
+  //     UserName.innerText = "Welcome " + users[0].name;
+  //   }
+  // }
   if (users[0].email) {
     {
       let hidingEmail = () => {
@@ -206,6 +209,7 @@ function displayName() {
       hidingEmail();
     }
   }
+  UserName.innerText = "Welcome " + users[0].name;
 }
 
 window.onload = displayName;

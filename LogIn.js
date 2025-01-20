@@ -29,6 +29,9 @@ function emailStorage() {
   let userFound = users.find(
     (user) => user.email === email.value && user.password === pass.value
   );
+  // let userIndex = users.indexOf(
+  //   (user) => user.email === email.value && user.password === pass.value
+  // );
 
   if (userFound) {
     errors[1].innerHTML = "";

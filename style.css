@@ -48,7 +48,7 @@ header {
 }
 
 .button:hover {
-  background-color: #74ed45;
+  background-color: #009a97;
   transform: translateY(-2px);
 }
 .main-btn {
@@ -67,7 +67,7 @@ header {
 }
 
 .main-btn:hover {
-  background-color: #74ed45;
+  background-color: #009a97;
   transform: translateY(-2px);
 }
 
@@ -86,8 +86,7 @@ header {
   min-height: 100vh;
   display: grid;
   align-items: center;
-  background: url("background.jpg")
-    no-repeat;
+  background: url("background.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
